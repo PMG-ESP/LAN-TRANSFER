@@ -1,7 +1,4 @@
-from PyQt5.QtCore import *
-from PyQt5.QtWidgets import *
-from PyQt5.QtGui import *
-from APK.Bouton import Bouton
+from Bouton import Bouton
 import sys 
 class BoutonFermer(Bouton):
     def __init__(self,parent,position,label):

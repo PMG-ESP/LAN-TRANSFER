@@ -1,6 +1,6 @@
-from PyQt5.QtCore import *
-from PyQt5.QtWidgets import *
-from PyQt5.QtGui import *
+from PyQt5.QtWidgets import QPushButton
+
+
 class Bouton(QPushButton):
     
     def __init__(self,parent,position,label):
@@ -11,4 +11,3 @@ class Bouton(QPushButton):
     
     def design(self):
         self.setStyleSheet("color:#00111c;background-color: #0096c7;border-width: : 2px;border-radius: : 10px;")
-#doingsomthing
