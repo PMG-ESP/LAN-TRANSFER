@@ -11,3 +11,4 @@ class Bouton(QPushButton):
     
     def design(self):
         self.setStyleSheet("color:#00111c;background-color: #0096c7;border-width: : 2px;border-radius: : 10px;")
+#doingsomthing
